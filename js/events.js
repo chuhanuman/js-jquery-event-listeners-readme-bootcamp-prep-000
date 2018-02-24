@@ -10,14 +10,14 @@ function frameIt() {
   });
 }
 function pressIt() {
-  $('input').on('keydown',function(key){
+  $('form').on('keydown',function(key){
     if (key === 'g'){
       alert("I'm afraid I can't let you do that.");
     }
   });
 }
 function submitIt() {
-  $('input').on('submit',function(){
+  $('form').on('submit',function(){
     alert('Your form is going to be submitted now.');
   });
 }
