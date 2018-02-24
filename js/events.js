@@ -10,8 +10,10 @@ function frameIt() {
   });
 }
 function pressIt() {
-  $('input').on('keydown',function(){
-    alert("I'm afraid I can't let you do that.");
+  $('input').on('keydown',function(key){
+    if (key === 'g'){
+      alert("I'm afraid I can't let you do that.");
+    }
   });
 }
 function submitIt() {
