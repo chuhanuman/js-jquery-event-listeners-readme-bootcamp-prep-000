@@ -11,10 +11,9 @@ function frameIt() {
 }
 function pressIt() {
   $('#typing').on('keydown',function(key){
-    if (key.which === 'g'){
+    if (key.which === 71){
       alert("I'm afraid I can't let you do that.");
     }
-    alert(key.which);
   });
 }
 function submitIt() {
