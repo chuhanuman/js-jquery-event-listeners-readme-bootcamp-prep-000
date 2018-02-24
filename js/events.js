@@ -5,13 +5,13 @@ function getIt() {
   });
 }
 function frameIt() {
-  $(document).on('keydown',function(){
+  $('img').on('keydown',function(){
     alert('Hey!');
   });
 }
 function pressIt() {
   $('input').on('keydown',function(){
-    alert('Hey!');
+    alert("I'm afraid I can't let you do that.");
   });
 }
 function submitIt() {
