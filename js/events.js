@@ -1,6 +1,6 @@
 //define functions here
 function getIt() {
-  $(document).on('keydown',function(){
+  $('p').on('click',function(){
     alert('Hey!');
   });
 }
@@ -10,7 +10,7 @@ function frameIt() {
   });
 }
 function pressIt() {
-  $(document).on('keydown',function(){
+  $('input').on('keydown',function(){
     alert('Hey!');
   });
 }
