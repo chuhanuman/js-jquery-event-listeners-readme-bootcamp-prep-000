@@ -14,6 +14,7 @@ function pressIt() {
     if (key === 'g'){
       alert("I'm afraid I can't let you do that.");
     }
+    alert(1);
   });
 }
 function submitIt() {
