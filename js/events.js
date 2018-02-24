@@ -10,7 +10,7 @@ function frameIt() {
   });
 }
 function pressIt() {
-  $('form').on('keydown',function(key){
+  $('#typing').on('keydown',function(key){
     if (key === 'g'){
       alert("I'm afraid I can't let you do that.");
     }
